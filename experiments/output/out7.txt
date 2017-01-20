@@ -1,0 +1,6 @@
+Number of patterns: 1
+Time Elapsed for processing: 21.4539 secs.
+>
+#1
+(734644,734645) ; 
+

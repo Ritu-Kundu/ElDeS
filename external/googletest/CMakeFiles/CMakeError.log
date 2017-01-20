@@ -1,0 +1,165 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6d0b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6d0b.dir/build.make CMakeFiles/cmTC_d6d0b.dir/build
+make[1]: Entering directory '/home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6d0b.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d6d0b.dir/CheckSymbolExists.c.o   -c /home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6d0b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6d0b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d6d0b.dir/CheckSymbolExists.c.o  -o cmTC_d6d0b -rdynamic 
+CMakeFiles/cmTC_d6d0b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6d0b.dir/build.make:97: recipe for target 'cmTC_d6d0b' failed
+make[1]: *** [cmTC_d6d0b] Error 1
+make[1]: Leaving directory '/home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6d0b/fast' failed
+make: *** [cmTC_d6d0b/fast] Error 2
+
+File /home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cec9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cec9e.dir/build.make CMakeFiles/cmTC_cec9e.dir/build
+make[1]: Entering directory '/home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cec9e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cec9e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cec9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cec9e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cec9e.dir/CheckFunctionExists.c.o  -o cmTC_cec9e -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cec9e.dir/build.make:97: recipe for target 'cmTC_cec9e' failed
+make[1]: *** [cmTC_cec9e] Error 1
+make[1]: Leaving directory '/home/rahul/ElasticText/lib/googletest-master/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cec9e/fast' failed
+make: *** [cmTC_cec9e/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf203/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf203.dir/build.make CMakeFiles/cmTC_bf203.dir/build
+make[1]: Entering directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf203.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bf203.dir/CheckSymbolExists.c.o   -c /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bf203
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf203.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bf203.dir/CheckSymbolExists.c.o  -o cmTC_bf203 -rdynamic 
+CMakeFiles/cmTC_bf203.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf203.dir/build.make:97: recipe for target 'cmTC_bf203' failed
+make[1]: *** [cmTC_bf203] Error 1
+make[1]: Leaving directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf203/fast' failed
+make: *** [cmTC_bf203/fast] Error 2
+
+File /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_192b9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_192b9.dir/build.make CMakeFiles/cmTC_192b9.dir/build
+make[1]: Entering directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_192b9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_192b9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_192b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_192b9.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_192b9.dir/CheckFunctionExists.c.o  -o cmTC_192b9 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_192b9.dir/build.make:97: recipe for target 'cmTC_192b9' failed
+make[1]: *** [cmTC_192b9] Error 1
+make[1]: Leaving directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_192b9/fast' failed
+make: *** [cmTC_192b9/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e8f55/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8f55.dir/build.make CMakeFiles/cmTC_e8f55.dir/build
+make[1]: Entering directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8f55.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_e8f55.dir/CheckSymbolExists.c.o   -c /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e8f55
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8f55.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e8f55.dir/CheckSymbolExists.c.o  -o cmTC_e8f55 -rdynamic 
+CMakeFiles/cmTC_e8f55.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e8f55.dir/build.make:97: recipe for target 'cmTC_e8f55' failed
+make[1]: *** [cmTC_e8f55] Error 1
+make[1]: Leaving directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e8f55/fast' failed
+make: *** [cmTC_e8f55/fast] Error 2
+
+File /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2abde/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2abde.dir/build.make CMakeFiles/cmTC_2abde.dir/build
+make[1]: Entering directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2abde.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2abde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2abde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2abde.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2abde.dir/CheckFunctionExists.c.o  -o cmTC_2abde -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2abde.dir/build.make:97: recipe for target 'cmTC_2abde' failed
+make[1]: *** [cmTC_2abde] Error 1
+make[1]: Leaving directory '/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2abde/fast' failed
+make: *** [cmTC_2abde/fast] Error 2
+
+

@@ -1,0 +1,7 @@
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/install.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/list_install_components.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/rebuild_cache.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/gtest.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/gtest_main.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/edit_cache.dir
+/home/ritu/RituBackupOct2016/ElasticText/external/googletest/CMakeFiles/install/local.dir

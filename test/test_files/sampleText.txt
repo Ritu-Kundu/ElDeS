@@ -1,0 +1,1 @@
+ACC {ACC , AA , ATT } CCCTA { AC , A } CC { TT , E, CTTA , ACTTCTTA ,E } C   {  ACTTCTTA ,  TT , T } T { GGG , TT } { CTT , C }

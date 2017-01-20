@@ -1,0 +1,11 @@
+prefix=/home/ritu/ElasticText_Fatima_Ahmad/external/sdsl-lite
+exec_prefix=${prefix}
+libdir=/home/ritu/ElasticText_Fatima_Ahmad/external/sdsl-lite/lib
+includedir=/home/ritu/ElasticText_Fatima_Ahmad/external/sdsl-lite/include
+
+Name: libdivsufsort64
+Description: A lightweight suffix sorting library
+Version: 2.0.2-1
+URL: https://github.com/y-256/libdivsufsort
+Libs: -L${libdir} -ldivsufsort64
+Cflags: -I${includedir}

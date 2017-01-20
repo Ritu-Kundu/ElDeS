@@ -1,0 +1,2 @@
+Number of patterns: 0
+Time Elapsed for processing: 0.919561 secs.
